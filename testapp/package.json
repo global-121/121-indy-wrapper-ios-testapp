@@ -24,7 +24,7 @@
     ]
   },
   "scripts": {
-    "devsetup": "cordova plugin add --link ../plugin && cordova prepare && cordova compile",
+    "install": "cordova plugin add --link ../plugin && cordova prepare && cordova compile",
     "ios": "cordova emulate ios"
   }
 }
