@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "cordova-ios": "^5.0.1",
-    "cordova-plugin-global-121-indy": "file:.."
+    "cordova-plugin-global-121-indy": "file:../plugin"
   },
   "cordova": {
     "plugins": {
@@ -24,7 +24,7 @@
     ]
   },
   "scripts": {
-    "devsetup": "cordova plugin add --link .. && cordova prepare && cordova compile",
+    "devsetup": "cordova plugin add --link ../plugin && cordova prepare && cordova compile",
     "ios": "cordova emulate ios"
   }
 }
