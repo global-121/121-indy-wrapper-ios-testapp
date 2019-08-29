@@ -12,19 +12,23 @@
   },
   "dependencies": {
     "cordova-ios": "^5.0.1",
-    "cordova-plugin-global-121-indy": "file:../plugin"
+    "cordova-plugin-global-121-indy": "file:../plugin",
+    "cordova-plugin-global-121-indy-tests": "file:../plugin/tests",
+    "cordova-plugin-test-framework": "^1.1.6"
   },
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-global-121-indy": {}
+      "cordova-plugin-global-121-indy": {},
+      "cordova-plugin-global-121-indy-tests": {},
+      "cordova-plugin-test-framework": {}
     },
     "platforms": [
       "ios"
     ]
   },
   "scripts": {
-    "install": "cordova plugin add --link ../plugin && cordova prepare && cordova compile",
+    "install": "cordova plugin add --link ../plugin ../plugin/tests && cordova prepare && cordova compile",
     "ios": "cordova emulate ios"
   }
 }
