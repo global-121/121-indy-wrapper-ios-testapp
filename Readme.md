@@ -14,6 +14,8 @@ functionality for the [Red Cross 121 project][3].
 
 The first time you run the tests, execute:
 
+    cd testapp
+    npm install
     npm run ios
 
 This will open the iOS simulator and runs the test app.
