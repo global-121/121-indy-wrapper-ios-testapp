@@ -1,11 +1,11 @@
 {
-  "name": "testapp.cordova.plugin.global121.indy",
-  "displayName": "TestApp",
+  "name": "121-indy-wrapper-ios-testapp",
+  "displayName": "cordova-plugin-121-indy iOS TestApp",
   "version": "0.1.0",
-  "description": "Test app for cordova-plugin-global-121-indy",
-  "main": "index.js",
-  "author": "Global 121",
+  "description": "Test app for cordova-plugin-121-indy",
+  "author": "121.global",
   "license": "MIT",
+  "repository": {},
   "devDependencies": {
     "cordova": "^9.0.0",
     "cordova-plugin-whitelist": "^1.3.4"
