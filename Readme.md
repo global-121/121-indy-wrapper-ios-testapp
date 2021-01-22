@@ -1,14 +1,14 @@
 Tests for the 121 Indy Wrapper
 ------------------------------
 
-These are the tests for the [Cordova plugin][1] that wraps [Hyperledger Indy][2]
-functionality for the [Red Cross 121 project][3].
+These are the tests for the [Cordova plugin](https://github.com/global-121/121-indy-wrapper-ios) that wraps [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy)
+functionality for the [Red Cross 121 project](https://www.121.global).
 
 ### Prerequisites
 
-   * Install [NodeJS][4].
-   * Install [Xcode][5].
-   * Install the Hyperledger Indy SDK and start a [local pool][6].
+   * Install [NodeJS](https://nodejs.org/).
+   * Install [Xcode](https://developer.apple.com/xcode/).
+   * Install the Hyperledger Indy SDK and start a [local pool](https://github.com/hyperledger/indy-sdk#how-to-start-local-nodes-pool-with-docker).
 
 ### Run tests
 
@@ -25,9 +25,8 @@ When you've made changes and wish to run the tests again, execute:
 
     npm run ios-reload
 
-[1]: https://github.com/global-121/121-indy-wrapper-ios
-[2]: https://www.hyperledger.org/projects/hyperledger-indy
-[3]: https://www.121.global
-[4]: https://nodejs.org/en/
-[5]: https://developer.apple.com/xcode/
-[6]: https://github.com/hyperledger/indy-sdk#how-to-start-local-nodes-pool-with-docker
+---
+
+## License
+
+Released under the Apache 2.0 License. See [LICENSE](LICENSE).
